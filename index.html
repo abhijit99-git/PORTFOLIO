@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhijit Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <nav id="navbar-main">
@@ -19,5 +19,42 @@
             </ul>
         </div>
     </nav>
+    <nav id="ham">
+        <div class="hamicon">Abhijit Tikone</div>
+        <div class="hamburgerMenu">
+        <div class="hamlogo" onclick="loadham()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="links">
+            <li><a href="#about" onclick="loadham()">About</a></li>
+            <li><a href="#Skills" onclick="loadham()">Skills</a></li>
+            <li><a href="#Projects" onclick="loadham()">Projects</a></li>
+            <li><a href="#Contact" onclick="loadham()">Contact</a></li>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="profileimg">
+            <img src="Resources/Profile_pic.png" alt="Abhijit_profile">
+        </div>
+
+        <div class="profile_text">
+            <p class="profile_para_1">Hello,I'am</p>
+            <h1 class="title">Abhijit Tikone</h1>
+            <p class="profile_para_2">Full Stack Developer</p>
+            <div class="btns">
+                <button class="resume" onclick="window.open('./Docs/Dhananjay Ghule.pdf')">DOWNLOAD CV</button>
+                <button class="contactbtn" onclick="location.href='./#Contact'">CONTACT</button>
+            </div>
+
+            <div class="socials">
+                <img src="Resources/linkedin.png" alt="linkedin_profile" class="linkedin" onclick="location.href='https://www.linkedin.com/in/abhijit-tikone-684942241/'">
+                <img src="Resources/github.png" alt="Github_profile" class="Github" onclick="location.href='https://github.com/abhijit99-git'">
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
 </body>
 </html>

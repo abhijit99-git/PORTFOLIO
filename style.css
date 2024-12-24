@@ -57,3 +57,82 @@ a {
 a:hover{
     color:pink;
 }
+
+#ham{
+    display: none;
+}
+
+.hamburgerMenu{
+    display: inline-block;
+    position: relative;
+}
+
+.hamlogo{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 30px;
+    height: 24px;
+}
+
+.hamlogo span{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.links{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transform: all 0.3 ease-in-out;
+
+}
+
+.links a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links.open{
+    max-height: 300px;
+}
+
+.hamlogo.open span:first-child{
+    transform: rotate(45deg) translate(10px,5px);
+}
+.hamlogo.open span:nth-child(2){
+    opacity: 0;
+}
+.hamlogo.open span:last-child{
+    transform: rotate(-45deg) translate(10px,-5px);
+}
+
+.hamlogo span:first-child{
+    transform: none;
+    
+}
+.hamlogo span:first-child{
+    opacity: 1 ;
+
+}
+.hamlogo span:first-child{
+    transform: none;
+
+}
+
