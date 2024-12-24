@@ -136,3 +136,102 @@ a:hover{
 
 }
 
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin:0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    height: 80vh;
+}
+
+.profileimg{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.profile_text{
+    align-self: center;
+    text-align: center;
+}
+
+.profile_text p{
+   font-weight: 600;
+}
+
+.profile_para_1{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+#profile {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem; 
+    height: 80vh;
+}
+
+.profileimg {
+    height: 500px; 
+    width: 500px; 
+    margin: auto 0;
+}
+
+.profile_text {
+    align-self: center;
+    text-align: center; 
+}
+
+.profile_text p {
+    font-weight: 600;
+}
+
+.profile_para_1 {
+    text-align: center; 
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center; 
+}
+
+.socials {
+    display: flex;
+    justify-content: center; 
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.socials img {
+    width: 24px;
+    height: 24px; 
+}
+
