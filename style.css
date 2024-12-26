@@ -421,9 +421,9 @@ section{
 }
 
 #profile{
-   /* border: 0.09rem solid grey; */
+   border: 0.09rem solid grey;
     border-radius: 2rem;
-    background-image: url("Resources/b8c69b5a-0168-4cc0-a8e8-edf485ed5403.jpg");
+    /* background-image: url("Resources/b8c69b5a-0168-4cc0-a8e8-edf485ed5403.jpg"); */
     background-size: cover;
     background-position: center;
     
