@@ -485,7 +485,7 @@ article {
     gap: 0.5rem;
     padding: 1rem;
     border: 1px solid #ccc;
-    border-radius: 1rem;
+    border-radius: 2.5rem;
 }
 
 article .icon-about {
