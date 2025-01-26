@@ -563,3 +563,8 @@ article div {
 .contact-icon{
     cursor: default;
 }
+
+.imgC{
+    width: 700px;
+    height: 200px;
+}

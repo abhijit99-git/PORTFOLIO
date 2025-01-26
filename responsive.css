@@ -132,4 +132,44 @@
 }
 }
 /* changes */
+/* General styles for smaller screens */
+@media screen and (max-width: 988px) {
+    body {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+    }
 
+    .content {
+        display: none;
+    }
+
+    .mobile-message {
+        display: block;
+        font-size: 2rem;
+        text-align: center;
+        color: black;
+        padding: 1rem;
+    }
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 989px) {
+    body {
+        background-color: initial;
+        display: block;
+        height: auto;
+        overflow: auto;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .mobile-message {
+        display: none;
+    }
+}
